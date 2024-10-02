@@ -1,0 +1,114 @@
+.block {
+    width: 285px;
+    text-align: center;
+    border: 2px solid #EFF2F4;
+    padding: 8px 8px 20px 8px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--0e2149);
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--111111);
+    margin-bottom: 11px;
+    text-align: start;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--0e2149);
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+.img {
+    margin-bottom: 18px;
+}
+
+.contentBlock {
+    padding: 0 20px 0 20px;
+}
+
+.prprice {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: var(--cfb08b);
+}
+
+.rubl {
+    font: 700;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--eff2f4);
+}
+
+.dis {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 130%;
+    color: var(--white);
+    padding: 5px 9px 5px 6px;
+    background: var(--cfb08b);
+}
+
+.econom {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: var(--717171);
+    padding: 4px 10px 4px 7px;
+
+}
+
+.innerFLex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.buyBtn {
+    padding: 12px 26px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    background-color: var(--0e2149);
+    border: none;
+}
+
+.ClickBtn {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    padding: 12px 15px;
+    background: var(--cfb08b);
+    border: #cfb08b;
+}
+
+.btns {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}

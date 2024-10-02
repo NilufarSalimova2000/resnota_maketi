@@ -1,0 +1,87 @@
+.first_block {
+    width: 219px;
+}
+
+.firstItem {
+    margin-bottom: 10px;
+
+}
+
+.firstLinkk {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--0e2149);
+}
+
+.firstLink {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--0e2149);
+}
+
+.MainBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 0 25px 0;
+}
+
+.link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--0e2149);
+}
+
+.contacts {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--0e2149);
+}
+
+.contactBlock {
+    display: flex;
+    align-items: center;
+    gap: 189px;
+    margin-bottom: 44px;
+}
+
+.hr {
+    background-color: 1px solid var(--b8c1ca);
+}
+
+.footerText {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--0e2149);
+}
+
+.FooterBlock {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.lastText {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: right;
+    color: var(--0e2149);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}

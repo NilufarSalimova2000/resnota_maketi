@@ -1,0 +1,27 @@
+.title {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: var(--white);
+}
+
+.item {
+    // width: 387px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #F89D4E;
+    display: flex;
+    align-items: center;
+    padding: 19px 0 19px 27px;
+}
+
+.block {
+    padding-top: 63px;
+    padding-bottom: 57px;
+}

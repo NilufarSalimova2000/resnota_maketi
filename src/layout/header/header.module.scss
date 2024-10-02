@@ -1,0 +1,55 @@
+.header_main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--717171);
+    width: 198px;
+}
+
+.logo_wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.icon_btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--eff2f4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--717171);
+}
+
+.price {
+    font-weight: 700;
+    color: var(--0e2149);
+}
+
+.info_block {
+    display: flex;
+    gap: 13px;
+}
+
+.block {
+    display: flex;
+    gap: 25px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}

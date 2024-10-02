@@ -1,0 +1,33 @@
+.banner_main {
+    padding-top: 113px;
+    padding-bottom: 143px;
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 52px;
+    color: var(--white);
+    margin-bottom: 32px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: var(--white);
+    width: 352px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    background-color: var(--0e2149);
+    padding: 12px 48px;
+}

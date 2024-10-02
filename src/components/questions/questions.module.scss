@@ -1,0 +1,130 @@
+.title {
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--white);
+    margin-bottom: 28px;
+}
+
+.text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    width: 268px;
+}
+
+.MainBlock {
+    background: radial-gradient(134.18% 22.26% at 43.26% 111.07%, rgb(61, 86, 138) 0%, rgb(14, 33, 73) 100%);
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0 32px 0;
+}
+
+.inputMini {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    padding: 15px 95px 15px 20px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: var(--b8c1ca);
+}
+
+.comment {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+
+    width: 288px;
+    height: 100%;
+    padding: 15px 15px 41px 20px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.txarea {
+    height: 99px;
+}
+
+.inputText {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: var(--white);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.inputText1 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: var(--white);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+
+
+.checkboxBlock {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkboxBlock1 {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.check {
+    display: none;
+}
+
+.label {
+    width: 22px;
+    height: 22px;
+    background: white;
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+.checks{
+    margin-bottom: 20px;
+}
+.formBnt {
+    padding: 12px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    background-color: var(--d79f43);
+}

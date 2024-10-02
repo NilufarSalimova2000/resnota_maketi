@@ -1,0 +1,29 @@
+.btnBlock {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 47px;
+
+}
+
+.btn {
+    padding: 13px 28px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--111111);
+    background-color: var(--eff2f4);
+    border: none;
+}
+
+.TabBlock{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
